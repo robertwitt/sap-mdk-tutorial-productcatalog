@@ -1,0 +1,36 @@
+{
+	"Caption": "ProductList",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"Caption": "No Products Found"
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"Description": "{ShortDescription}",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": true,
+						"SubstatusText": "{Price}",
+						"Title": "{Name}"
+					},
+					"Search": {
+						"Enabled": true,
+						"Placeholder": "Product Search"
+					},
+					"Target": {
+						"EntitySet": "Products",
+						"Service": "/mdk_productcatalog/Services/SampleService.service"
+					},
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "ProductList",
+	"_Type": "Page"
+}

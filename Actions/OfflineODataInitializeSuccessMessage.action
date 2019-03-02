@@ -1,0 +1,7 @@
+{
+	"Animated": true,
+	"Duration": 3,
+	"IsIconHidden": true,
+	"Message": "Offline OData initialize succeeded",
+	"_Type": "Action.Type.ToastMessage"
+}

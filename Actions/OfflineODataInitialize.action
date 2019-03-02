@@ -1,0 +1,23 @@
+{
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "Products",
+			"Query": "Products"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ProductCategories",
+			"Query": "ProductCategories"
+		},
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "ProductTexts",
+			"Query": "ProductTexts"
+		}
+	],
+	"OnFailure": "/mdk_productcatalog/Actions/OfflineODataInitializeFailureMessage.action",
+	"OnSuccess": "/mdk_productcatalog/Actions/OfflineODataInitializeSuccessMessage.action",
+	"Service": "/mdk_productcatalog/Services/SampleService.service",
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

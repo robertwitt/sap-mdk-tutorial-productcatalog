@@ -1,0 +1,6 @@
+{
+	"Message": "Offline OData initialize failed",
+	"OKCaption": "OK",
+	"Title": "Offline OData Initialize Failure Message",
+	"_Type": "Action.Type.Message"
+}
