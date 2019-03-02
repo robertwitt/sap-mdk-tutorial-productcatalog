@@ -11,6 +11,7 @@
 						"AccessoryType": "disclosureIndicator",
 						"Description": "{ShortDescription}",
 						"DetailImageIsCircular": false,
+						"OnPress": "/mdk_productcatalog/Actions/Nav2ProductDetail.action",
 						"PreserveIconStackSpacing": true,
 						"SubstatusText": "{Price}",
 						"Title": "{Name}"

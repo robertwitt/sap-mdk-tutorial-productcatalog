@@ -1,0 +1,63 @@
+{
+	"Caption": "Product Detail",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "Name",
+							"Value": "{Name}"
+						},
+						{
+							"KeyName": "Price",
+							"Value": "{Price}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "Category",
+							"Value": "{Category}"
+						},
+						{
+							"KeyName": "ID",
+							"Value": "{ProductId}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue1",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "Description",
+							"Value": "{LongDescription}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue2",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "ProductDetail",
+	"_Type": "Page"
+}
