@@ -1,2 +1,2 @@
-# sap-mdk-tutorial-productcatalog
-Product Catalog Tutorial with SAP Cloud Platform Mobile Development Kit
+# Product Catalog Tutorial
+This app is a Mobile Development Kit project managed by SAP Cloud Platform mobile services. It follows the product list tutorial of the [MDK learning journey](https://help.sap.com/doc/0c3db190da2c4866a1f2906763d4f59a/Cloud/en-US/8a4db22f842e4f37874eae5ce9d2d4b1.html).
