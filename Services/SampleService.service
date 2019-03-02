@@ -1,0 +1,5 @@
+{
+	"AppId": "de.robertwitt.tutorial.mdk.productcatalog",
+	"DestinationName": "com.sap.edm.sampleservice.v2",
+	"ServiceUrl": "/destinations/mobileservices"
+}
